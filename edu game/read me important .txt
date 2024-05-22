@@ -1,0 +1,9 @@
+
+use admin admin for log in 
+
+
+System Requirements: This game only runs on Windows and is not compatible with mobile devices.
+
+Account Creation: When you start the game, you'll notice an option to create an account. Unfortunately, account creation is currently disabled. Instead, you can simply click on "Log In" and use the credentials "admin" for both username and password.
+
+Updates: The game will receive periodic updates. To stay informed about these updates and receive the full version, please enter your email on the website provided.

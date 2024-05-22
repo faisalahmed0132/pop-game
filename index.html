@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download My C# Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .game-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .description, .download, .download-docs, .download-source, .newsletter {
+            margin-bottom: 20px;
+        }
+        .download-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .tech-icons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+        .tech-icon {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+        }
+        .tech-icon i {
+            font-size: 2em;
+            margin-right: 8px;
+        }
+        .tech-icon .csharp { color: #178600; } /* لون أيقونة C# */
+        .tech-icon .windows { color: #00a4ef; } /* لون أيقونة Windows Forms */
+        .tech-icon .net { color: #512bd4; } /* لون أيقونة .NET Framework */
+        .tech-icon .database { color: #f0db4f; } /* لون أيقونة Database */
+        @media (max-width: 768px) {
+            .tech-icons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>Welcome to my graduation project</h1>
+            <h1>Welcome to my graduation project</h1>
+            <h1>Welcome to my graduation project</h1>
+            <h1>Welcome to my graduation project</h1>
+        </header>
+        <main>
+            <p>hi fgfgfgf</p>
+            <p>hi fgfgfgf</p>
+            <p>hi fgfgfgf</p>
+            <p>hi fgfgfgf</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <section class="game-image">
+                <img src="eng-1080x675.jpg" alt="Game Image">
+            </section>
+            <section class="description">
+                <h2>Design and implementation of an educational game for Kids using C#</h2>
+                <p>
+                    In this project we will implement and design an educational game for Kids. We will use C# with Visual Studio to design and implement this game. The project aims to achieve a main goal, which is for the student to be able to write programming code professionally. The game seeks to benefit children educationally, to teach some basic concepts, to develop their cognitive and scientific skills, and to develop their educational skills.
+                </p>
+            </section>
+            <section class="download">
+                <h2>Download the Game</h2>
+                <a href="edu game" class="download-button"><i class="fas fa-download"></i> Download Now</a>
+            </section>
+            <section class="download-docs">
+                <h2> Game Documentation</h2>
+                <a href="Ministry of Higher Education and Scientific Research  .pdf" class="download-button" download><i class="fas fa-file-pdf"></i> Download PDF</a>
+                <a href="Ministry of Higher Education and Scientific Research  .docx" class="download-button"><i class="fas fa-file-word"></i> Download Word</a>
+            </section>
+            <section class="download-source">
+                <h2>  Source Code</h2> 
+        
+                <a href=" https://github.com/faisalahmed0132/GAME-VERISON3  " target="_blank" class="download-button"><i class="fas fa-code"></i> Download Source Code</a>
+                <div class="tech-icons">
+                    <div class="tech-icon">
+                        <i class="fas fa-code csharp" title="C#"></i> <span>C#</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fas fa-window-maximize windows" title="Windows Forms"></i> <span>Windows Forms</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fab fa-microsoft net" title=".NET Framework"></i> <span>.NET Framework</span>
+                    </div>
+                    <div class="tech-icon">
+                        <i class="fas fa-database database" title="Database"></i> <span>Database</span>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter">
+                <h2>Stay Updated</h2>
+                <form action="https://formspree.io/f/xnqeydge" method="post">
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <button type="submit">Subscribe</button>
+                </form>
+                
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Faisal Ahmed. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        document.getElementById('subscribe-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const email = document.getElementById('email').value;
+            alert('Thank you for subscribing, ' + email + '!');
+        });
+    </script>
+</body>
+</html>
